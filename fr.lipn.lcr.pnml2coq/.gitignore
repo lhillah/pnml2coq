@@ -7,4 +7,5 @@ myBench
 dependency-reduced-pom.xml
 /bin
 target
-
+src/site/resources/images/logo_lipn.jpg
+src/site/resources/download/*.jar
