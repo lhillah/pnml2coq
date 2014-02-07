@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Main-Class: fr.lipn.lcr.pnmltocoq.PnmltoCoq
+Bundle-ManifestVersion: 2
+Bundle-Name: PNML to Coq converter
+Bundle-SymbolicName: Pnml2Coq;singleton:=true
+Bundle-Version: 1.0.1
+Require-Bundle: fr.lip6.move.pnml.framework.coremodel,
+ fr.lip6.move.pnml.framework.ptnet,
+ fr.lip6.move.pnml.framework.utils
+Bundle-Vendor: Univ. Paris 13 (CNRS UMR 7030, LIPN) and Univ Paris 06 (CNRS UMR 7606, LIP6) FRANCE
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: fr.lipn.lcr.pnmltocoq,
+ fr.lipn.lcr.pnmltocoq.exceptions,
+ fr.lipn.lcr.pnmltocoq.processors

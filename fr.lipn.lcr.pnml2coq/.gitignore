@@ -1,0 +1,10 @@
+models
+lib
+test-output
+.settings
+.DS_Store
+myBench
+dependency-reduced-pom.xml
+/bin
+target
+

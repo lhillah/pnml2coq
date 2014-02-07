@@ -1,0 +1,56 @@
+#*
+ *  Copyright 2010 Universite Paris 13 - CNRS UMR 7030 (LIPN)
+ *
+ *  All rights reserved.   This program and the accompanying materials
+ *  are made available under the terms of the Eclipse Public License v1.0
+ *  which accompanies this distribution, and is available at
+ *  http://www.eclipse.org/legal/epl-v10.html
+ *
+ *  Project leader / Initial Contributor:
+ *    Laure Petrucci - <Laure.Petrucci@lipn.univ-paris13.fr>
+ *
+ *  Contributors:
+ *    Lom Messan Hillah - <$oemails}>
+ *
+ *  Mailing list:
+ *    Laure.Petrucci@lipn.univ-paris13.fr
+ *#
+~~
+~~  Copyright 2014 Universite Paris Ouest Nanterre & Sorbonne Universites, Univ. Paris 06 - CNRS UMR 7606 (LIP6/MoVe)
+~~  All rights reserved.   This program and the accompanying materials
+~~  are made available under the terms of the Eclipse Public License v1.0
+~~  which accompanies this distribution, and is available at
+~~  http://www.eclipse.org/legal/epl-v10.html
+~~
+~~  Project leader / Initial Contributor:
+~~    Lom Messan Hillah - <lom-messan.hillah@lip6.fr>
+~~
+~~  Contributors:
+~~    ${ocontributors} - <$oemails}>
+~~
+~~  Mailing list:
+~~    lom-messan.hillah@lip6.fr
+~~
+
+ ------
+Download PNML to Coq Converter ${project.version}
+ ------
+ ------
+2014-02
+ ------
+
+Download PNML to Coq Converter ${project.version}
+
+  This tools is distributed as a single jar, mainly to be used on the command line.
+  However, you may also integrate it as a library in your application for whatever purpose.
+  It has a few set of classes, so it's easy to figure out their roles. 
+
+* Single jar with all dependencies
+
+  Download it from {{{./download/${project.artifactId}-${project.version}.jar}this link}}.
+
+
+Requirements
+
+  * Runs on Java 1.7
+  

@@ -1,0 +1,56 @@
+~~
+~~  Copyright 2010 Universite Paris 13 - CNRS UMR 7030 (LIPN)
+~~
+~~  All rights reserved.   This program and the accompanying materials
+~~  are made available under the terms of the Eclipse Public License v1.0
+~~  which accompanies this distribution, and is available at
+~~  http://www.eclipse.org/legal/epl-v10.html
+~~
+~~  Project leader / Initial Contributor:
+~~    Laure Petrucci - <Laure.Petrucci@lipn.univ-paris13.fr>
+~~
+~~  Contributors:
+~~    Lom Messan Hillah - <$oemails}>
+~~
+~~  Mailing list:
+~~    Laure.Petrucci@lipn.univ-paris13.fr
+~~
+
+ -------
+Usage
+ -------
+ -------
+2014-02
+ -------
+
+Invocation
+
+  This tool expects a set of paths to PNML files as arguments.
+  
+Command-line invocation
+
+  The basic command-line invocation is the following (update the name of the jar to the latest version of this tool):
+  
+ <java -jar fr.lip6.move.pnml2coq-X.Y.Z.jar pathToFile [pathToAnotherFile ...]>
+
+ Advanced invocation includes arguments for the JVM (tested on Mac OS 10.9):
+ 
+ <java -d64 -server -Xmx2g -Xmn128m -XX:NewSize=2g -XX:MaxNewSize=2g -XX:+UseNUMA -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -jar fr.lip6.move.pnml2coq-X.Y.Z.jar pathToFile [pathToAnotherFile ...]>
+ 
+ In particular, increase the value of <-Xmx> argument which allocates max memory to the heap,
+ when you are dealing with very large input PNML files. In the above invocation, it is set to 2 GB.
+ 
+Invocation using a Shell script
+
+  We provide a {{{./download/pnml2coq.sh}Shell script}} to help you increase productivity in using PNML to Coq Converter.
+In particular, the advance set of arguments for the Java VM is included (see above), that you can start with and modify to your system's settings.
+
+  For instance, the -Xmx argument allocates some max amount of memory to the heap. If you mostly deal with small
+PNML documents (a few hundreds KB), we advise you decrease it (current setting is 2 GB). If you use large documents,
+(a few hundreds MB to GB), then you should increase it in order to avoid out of memory errors.
+
+Feedback
+
+  Feel free to send us any feedback regarding your use of this tool, using the {{{./mail-lists.html}mailing list}}.
+   
+

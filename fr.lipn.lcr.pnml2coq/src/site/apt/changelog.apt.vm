@@ -1,0 +1,54 @@
+#*
+ *  Copyright 2010 Universite Paris 13 - CNRS UMR 7030 (LIPN)
+ *
+ *  All rights reserved.   This program and the accompanying materials
+ *  are made available under the terms of the Eclipse Public License v1.0
+ *  which accompanies this distribution, and is available at
+ *  http://www.eclipse.org/legal/epl-v10.html
+ *
+ *  Project leader / Initial Contributor:
+ *    Laure Petrucci - <Laure.Petrucci@lipn.univ-paris13.fr>
+ *
+ *  Contributors:
+ *    Lom Messan Hillah - <$oemails}>
+ *
+ *  Mailing list:
+ *    Laure.Petrucci@lipn.univ-paris13.fr
+ *#
+~~
+~~  Copyright 2014 Universite Paris Ouest Nanterre & Sorbonne Universites, Univ. Paris 06 - CNRS UMR 7606 (LIP6/MoVe)
+~~  All rights reserved.   This program and the accompanying materials
+~~  are made available under the terms of the Eclipse Public License v1.0
+~~  which accompanies this distribution, and is available at
+~~  http://www.eclipse.org/legal/epl-v10.html
+~~
+~~  Project leader / Initial Contributor:
+~~    Lom Messan Hillah - <lom-messan.hillah@lip6.fr>
+~~
+~~  Contributors:
+~~    ${ocontributors} - <$oemails}>
+~~
+~~  Mailing list:
+~~    lom-messan.hillah@lip6.fr
+~~
+
+ ------
+Changelog of PNML to BPN Converter ${project.version}
+ ------
+ ------
+2014-02
+ ------
+
+Changelog
+
+* What's new in version ${project.version}?
+
+  * Relies on PNML Framework 2.2.4
+
+
+* What's new in version 1.0.0?
+
+  * First stable release 
+  
+  []
+ 

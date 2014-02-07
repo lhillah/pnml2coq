@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="pnml2coq" verbose="1">
+	<test name="pnml2coq1">
+		<groups>
+			<run>
+				<include name="pnmltocoq" />
+			</run>
+		</groups>
+		<packages>
+			<package name="fr.lipn.lcr.pnmltocoq" />
+		</packages>
+	</test>
+</suite>
